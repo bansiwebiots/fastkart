@@ -1,0 +1,57 @@
+.features{
+    background-color: $pink-color;
+    padding: 30px 22px;
+    margin: 30px 0;
+    .features-box{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin: 20px 0 0 0;
+        &:first-child{
+            margin: 0;
+        }
+        svg{
+            width: 35px;
+            height: 35px;
+            fill: $red-color;
+        }
+        .features-content{
+            width: calc(100% - 35px - 10px);
+            h6{
+                margin-bottom: 5px;
+            }
+            h5{
+                color: $text-color;
+            }
+        }
+    }
+}
+.slider{
+    .mySwiper{
+        .swiper-slide{
+            background-color: $pink-color;
+            border: 2px solid $border-color;
+            padding: 20px;
+            opacity: 0.4;
+            .swiper-slide-thumb-active {
+                opacity: 1;
+            }
+            img{
+                width: 175px;
+                height: 175px;
+                object-fit: contain;
+            }
+        }
+    }
+    .mySwiper2{
+        background: $pink-color;
+        margin-bottom: 40px;
+        .swiper-slide{
+            img{
+                width: 400px;
+                height: 500px;
+                object-fit: contain;
+            }
+        }
+    }
+}

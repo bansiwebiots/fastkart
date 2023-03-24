@@ -1,0 +1,53 @@
+.product-arrow{
+    .swiper-button-next,
+    .swiper-button-prev{
+        width: calc(30px + (37 - 30) * ((100vw - 320px) / (1920 - 320)));
+        height: calc(30px + (37 - 30) * ((100vw - 320px) / (1920 - 320)));
+        font-size: 14px;
+        background: $red-color;
+        color: $white;
+        border-radius: 2px;
+    }
+    .swiper-button-next:after{
+        left: 31px;
+        font-size: 14px;
+    }
+    .swiper-button-prev:after{
+        right: 31px;
+        font-size: 14px;
+    }
+    .swiper-button-next.swiper-button-disabled,
+    .swiper-button-prev.swiper-button-disabled{
+        color: $black;
+        background: $border-color;
+        opacity: 1;
+    }
+}
+.swiper{
+    z-index: 0;
+}
+.main-arrival{
+    overflow: hidden;
+    .swiper{
+        overflow: unset;
+    }
+    .swiper-arrow{
+        .swiper-button-next,
+        .swiper-button-prev{
+            top: -15px;
+            width: auto;
+            height: auto;
+            color: $black;
+            right: 22px;
+        }
+        .swiper-button-prev, 
+        .swiper-rtl .swiper-button-next {
+            left: unset;
+            right: 65px;
+        }
+        .swiper-button-next:after,
+        .swiper-button-prev:after{
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,225 @@
+@media (max-width:320px) {
+    header{
+        .topbar{
+            .left-side{
+                display: none;
+            }
+            .right-side{
+                ul{
+                    li{
+                       margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+    .featured-box{
+        .featured-img{
+            margin: 20px 0;
+        }
+        .featured-content{
+            margin: 10px 0 22px 0;
+        }
+    }
+    .banner-box{
+        .banner-content{
+            padding-left: 10px;
+        }
+        .banner-info{
+            padding-left: 10px;
+        }
+    }
+}
+@media (min-width:320px) {
+    header{
+        .topbar{
+            .left-side{
+                display: none;
+            }
+            .right-side{
+                ul{
+                    li{
+                       margin: 0 5px; 
+                    }
+                }
+            }
+        }
+    }
+    .featured-box{
+        .featured-img{
+            margin: 20px 0;
+        }
+        .featured-content{
+            margin: 10px 0 22px 0;
+        }
+    }
+    .banner-box{
+        .banner-content{
+            padding-left: 10px;
+        }
+        .banner-info{
+            padding-left: 10px;
+        }
+    }
+    .product-box{
+        h5{
+            margin: 18px 0 8px 0;
+        }
+        a{
+            margin-bottom: 10px;
+        }
+    }
+}
+@media (min-width:430px) {
+    header{
+        .topbar{
+            .left-side{
+                display: none;
+            }
+            .right-side{
+                ul{
+                    li{
+                       margin: 0 8px; 
+                    }
+                }
+            }
+        }
+    }
+    .featured-box{
+        .featured-img{
+            margin: 20px 0;
+        }
+        .featured-content{
+            margin: 10px 0 22px 0;
+        }
+    }
+    .banner-box{
+        .banner-content{
+            padding-left: 20px;
+        }
+        .banner-info{
+            padding-left: 20px;
+        }
+    }
+    .product-box{
+        h5{
+            margin: 18px 0 8px 0;
+        }
+        a{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (min-width:576px) {
+    .banner-box{
+        .banner-content{
+            padding-left: 20px;
+        }
+        .banner-info{
+            padding-left: 20px;
+        }
+    }
+    .product-box{
+        h5{
+            margin: 18px 0 8px 0;
+        }
+        a{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (min-width:768px) {
+}
+
+@media (min-width:992px) {
+    header{
+        .topbar{
+            .right-side{
+                ul{
+                    li{
+                        margin: 0 10px;
+                    }
+                }
+            }   
+            .left-side{
+                display: block;
+            }
+
+        }
+        nav{
+            ul{
+                margin-left: 0;
+            }
+        }
+    }
+    .featured-box{
+        .featured-img{
+            margin: 0;
+        }
+        .featured-content{
+            margin: 24px 0 40px 0;
+        }
+    }
+    .banner-box{
+        .banner-content{
+            padding-left: 30px;
+            h3{
+                margin-bottom: 20px;
+            }
+            p{
+                margin-bottom: 10px;
+            }
+        }
+        .banner-info{
+            padding-left: 30px;
+            p{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .product-box{
+        h5{
+            margin: 25px 0 10px 0;
+        }
+        a{
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    header{
+        .topbar{
+            .middle-side{
+                display: block;
+            }
+        }
+        nav{
+            ul{
+                margin-left: 100px;
+            }
+        }
+    }
+    .banner-box{
+        .banner-content{
+            padding-left: 45px;
+            h3{
+                margin-bottom: 30px;
+            }
+            p{
+                margin-bottom: 15px;
+            }
+        }
+        .banner-info{
+            padding-left: 45px;
+            p{
+                margin-bottom: 35px;
+            }
+        }
+    }
+    
+}
+@media (min-width:1400px) {
+}

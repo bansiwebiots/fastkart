@@ -1,0 +1,34 @@
+.bg-header{
+    nav{
+        ul{
+            li{
+                a{
+                    &:hover,&.active{
+                        color: $dropdown-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.header{
+    .bottom-header{
+        nav{
+            .navbar-nav{
+                gap: 30px;
+                li{
+                    a{
+                        color: $black;
+                        transition: all 0.4s ease-in-out;
+                        svg{
+                            font-size: 12px;
+                        }
+                        &:hover ,&.active{
+                            color: $red-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

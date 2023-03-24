@@ -1,0 +1,229 @@
+.card {
+    border: none;
+    box-shadow: $shadow-color;
+    font-family: $font-family-montserrat;
+
+    &:hover h5 {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    img {
+        position: relative;
+    }
+
+    h5 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: $tag-color;
+        color: $white;
+        opacity: 0;
+        visibility: hidden;
+        padding: 0 10px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .card-body {
+        ul {
+            li {
+                a {
+                    color: $nav-color;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover {
+                        color: $tab-color;
+                    }
+
+                    &.active {
+                        color: $tab-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-content {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 0 25px;
+    font-family: $font-family-montserrat;
+
+    h2 {
+        color: $dropdown-color;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 0;
+            background-color: $tag-color;
+            width: 60px;
+            height: 4px;
+        }
+    }
+}
+
+.main-card {
+    background-color: $bg-background;
+    border-radius: 15px;
+    position: relative;
+
+    .card-image {
+        img {
+            border-radius: 15px;
+        }
+    }
+
+    .card-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320))) 0 calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320))) calc(17px + (30 - 17) * ((100vw - 320px) / (1920 - 320)));
+
+        h5 {
+            letter-spacing: 7px;
+        }
+
+        h3 {
+            margin: 7px 0 calc(8px + (11 - 8) * ((100vw - 320px) / (1920 - 320))) 0;
+            font-weight: 500;
+            font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1920 - 320)));
+        }
+
+        .btn-bg {
+            padding: 5px 10px;
+            width: 100px;
+            border-radius: 5px;
+            margin-top: calc(10px + (24 - 10) * ((100vw - 320px) / (1920 - 320)));
+        }
+    }
+}
+
+.main-product {
+    border: 2px solid $red-color;
+    border-radius: 10px;
+
+    .product-arrow {
+        .swiper-slide {
+            margin: auto;
+        }
+
+        img {
+            @media (max-width:1377px) {
+                width: 50%;
+            }
+        }
+    }
+
+    .product-title {
+        background-color: $red-color;
+        padding: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320))) 0;
+    }
+
+    .product-info {
+        margin: 20px;
+
+        svg {
+            font-size: 14px;
+            fill: $star-color;
+            color: $star-color;
+        }
+
+        .price {
+            margin: calc(7px + (15 - 7) * ((100vw - 320px) / (1920 - 320))) 0 calc(15px + (30 - 15) * ((100vw - 320px) / (1920 - 320))) 0;
+
+            span {
+                font-size: calc(15px + (22 - 15) * ((100vw - 320px) / (1920 - 320)));
+            }
+        }
+
+        .progress {
+            height: 8px;
+
+            .progress-bar {
+                background-color: $red-color;
+                width: 45%;
+                border-radius: 50px;
+            }
+        }
+
+        .progress-info {
+            margin: 6px 0 calc(15px + (29 - 15) * ((100vw - 320px) / (1920 - 320))) 0;
+
+            h6 {
+                font-weight: 400;
+                font-size: 13px;
+                color: $text-color;
+            }
+        }
+    }
+}
+
+.collection-bg {
+    background-image: url("./../images/page-2/collection.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    .collection-content {
+        padding: calc(40px + (120 - 40) * ((100vw - 320px) / (1920 - 320))) 0;
+
+        h2 {
+            font-weight: 300;
+            font-size: calc(25px + (50 - 25) * ((100vw - 320px) / (1920 - 320)));
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+        }
+
+        h4 {
+            font-weight: 300;
+            font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1920 - 320)));
+        }
+
+        .btn-bg {
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: 100px;
+        }
+    }
+}
+
+.main-service {
+    .service-box {
+        background-color: $bg-background;
+        margin: calc(10px + (50 - 10) * ((100vw - 320px) / (1920 - 320))) 5px;
+        padding: calc(15px + (26 - 15) * ((100vw - 320px) / (1920 - 320))) calc(8px + (37 - 8) * ((100vw - 320px) / (1920 - 320)));
+
+        .service-content {
+            margin-left: 20px;
+
+            h4 {
+                font-weight: 500;
+            }
+
+            h5 {
+                color: $text-color;
+                margin-top: 5px;
+                font-weight: 400;
+                font-size: calc(14px + (14 - 14) * ((100vw - 320px) / (1920 - 320)));
+            }
+        }
+    }
+}
+
+.slider {
+    h4 {
+        color: $black;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}

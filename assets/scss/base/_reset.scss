@@ -1,0 +1,173 @@
+.custom-container{
+    padding: 0 calc(20px + (164 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.header-container{
+    padding: 0 calc(20px + (164 - 20) * ((100vw - 320px) / (1920 - 320)));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.theme-color{
+    color: $orange-color;
+}
+.content-color{
+    color: $nav-color;
+}
+.title-color{
+    color: $dropdown-color;
+}
+.menu-color{
+    color: $menu-color;
+}
+.white{
+    color: $white;
+}
+.disbled-color{
+    color: $disbled-color;
+}
+.header-color{
+    color: $bg-header;
+}
+.p-left-start{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.p-center-start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.p-center-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul ,ol{
+    margin-bottom: 0;
+    padding: 0;
+}
+.line-right{
+    border-right: 2px solid $menu-color;
+}
+.p-s-theme-color{
+    background-color: $pink-color;
+}
+.p-s-red-color{
+    color: $red-color;
+}
+section,.section-t-space{
+    padding-top:  calc(25px + (80 - 25) * ((100vw - 320px) / (1920 - 320)));
+}
+.section-b-space{
+    padding-bottom: calc(30px + (80 - 30) * ((100vw - 320px) / (1920 - 320)));
+
+}
+.cursor{
+    cursor: pointer;
+}
+.title-2{
+    margin-bottom: calc(15px + (39 - 15) * ((100vw - 320px) / (1920 - 320)));
+    .icons{
+        position: relative;
+        text-align: center;
+        z-index: 0;
+        &::after{
+            content: "";
+            width: 200px;
+            border: 2px solid $red-color;
+            border-radius: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;  
+            transform: translate(-50% ,  -50%);    
+            z-index: -1;
+        }
+        ul{
+            background-color: $white;
+            width: fit-content;
+            margin: 0 auto;
+            gap: 6px;
+            padding: 0 7px;
+            li{
+                display: inline-block;
+                font-size: 14px;
+                &:first-child{
+                    font-size: 8px;
+                }
+                &:last-child{
+                    font-size: 8px;
+                }
+                a{
+                    color: $red-color;
+                }
+            }
+        }
+    }
+}
+.timer-one{
+    margin-left: 41px;
+    @media (max-width:1184px) {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    li{
+        font-size: calc(22px + (30 - 22) * ((100vw - 320px) / (1920 - 320)));
+        display: flex;
+        gap: 8px;
+        font-weight: 700;
+        align-items: center;
+        a{
+        font-size: calc(14px + (25 - 14) * ((100vw - 320px) / (1920 - 320)));
+        background: $red-color;
+        color: $white;
+        padding: calc(10px + (12 - 10) * ((100vw - 320px) / (1920 - 320))) calc(12px + (17 - 12) * ((100vw - 320px) / (1920 - 320)));
+        border-radius: 5px;
+        }
+    }
+    li {
+        + li{
+            margin-left: 8px;
+        }
+    } 
+}
+.timer-two{
+    margin: 0;
+    padding: calc(5px + (18 - 5) * ((100vw - 320px) / (1920 - 320)));
+    
+    li{
+        font-size: 18px;
+        gap: 10px;
+        margin-left: 10px;
+        a{
+            background: $border-color;
+            width: calc(35px + (60 - 35) * ((100vw - 320px) / (1920 - 320)));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: calc(35px + (60 - 35) * ((100vw - 320px) / (1920 - 320)));
+            font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            color: $black;
+        }
+    }
+}
+.green{
+    background-color: $bg-green-color;
+    color: $green-color;
+}
+.red{
+    background-color: $bg-brown-color;
+    color: $brown-color;
+}
+.yellow{
+    background-color: $bg-yellow-color;
+    color: $yellow-color;
+}

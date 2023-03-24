@@ -1,0 +1,49 @@
+.button-outline{
+    margin: calc(25px + (36 - 25) * ((100vw - 320px) / (1920 - 320))) 0 0 0;
+    border: 1px solid $white;
+    padding: 15px 36px;
+    border-radius: 37px;
+    width: 155px;   
+    text-align: center;
+    height: 55px;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        background-color: $orange-color;
+        border: 1px solid $orange-color;
+    }
+}
+.bg-btn{
+    background-color: $orange-color;
+    padding: calc(8px + (15 - 8) * ((100vw - 320px) / (1920 - 320))) calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.btn-bg{
+    background-color: $red-color;
+    padding: 15px;
+    a{
+        color: $white;
+        font-weight:  700;
+        svg{
+            width: 14px;
+            height: 14px;
+        }
+    }
+}
+.navbar-barnd{
+    &:hover{
+        color: $white;
+    }
+}
+.btn-white-bg{
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: calc(12px + (24 - 12) * ((100vw - 320px) / (1920 - 320)));
+    background-color: $white;
+    a{
+        color: $red-color;
+    }
+}

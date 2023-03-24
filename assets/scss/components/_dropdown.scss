@@ -1,0 +1,32 @@
+.dropdown{
+    svg{
+        width: 14px;
+        height: 14px;
+    }
+    .dropdown-menu{
+        width: 100%;
+        a{
+            color: $black;
+            font-weight: 400;
+        }
+    }
+}
+.header{
+    .top-header{
+        .right-side{
+            .language{
+                .dropdown-menu{
+                    li{
+                        &:first-child{
+                            border-right: none;
+                            margin-left: 0;
+                        }
+                        &:last-child{
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

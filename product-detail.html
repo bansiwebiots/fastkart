@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>product page</title>
+
+        <!-- google-font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet">
+
+        <!-- swiper -->
+        <link rel="stylesheet"
+            href="assets/css/vendors/swiper/swiper-bundle.min.css"
+            type="text/css">
+        <link rel="stylesheet" href="assets/css/vendors/swiper/swiper.min.css"
+            type="text/css">
+
+        <!-- main-css -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    </head>
+    <body class="roboto-body">
+
+        <!-- header start -->
+        <header class="header">
+            <div class="top-header bg-white roboto">
+                <div class="custom-container w-100">
+                    <div class="d-flex align-items-center
+                        justify-content-between">
+                        <ul class="d-flex left-side">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                        </ul>
+                        <div class="right-side">
+                            <ul class="top-menu">
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Notifications</a></li>
+                                <li><a href="#">Help & Contact</a></li>
+                                <li><a href="#">Todays Deal</a></li>
+                                <li><a href="#">Track Order</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Easy Returns</a></li>
+                            </ul>
+                            <ul class="language">
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">English
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ol class="dropdown-menu">
+                                        <li><a h ref="#" class="dropdown-item
+                                                py-2">Chinese</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Hindi</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">English</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Spanish</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">French</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Arabic</a></li>
+                                    </ol>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">USD <i
+                                            class="fa-solid fa-chevron-down
+                                            px-2"></i></a>
+                                    <ol class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">USD</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">INR</a></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-header">
+                <div class="custom-container w-100">
+                    <div class="d-flex align-items-center
+                        justify-content-between">
+                        <a href="#"><img src="assets/images/page-2/logo.png"
+                                alt=""></a>
+                        <div class="map-pin dropdown cursor">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-bs-toggle="dropdown">California <i
+                                    class="fa-solid fa-chevron-down"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item py-2">England</a></li>
+                                    <li><a href="#" class="dropdown-item py-2">Bihar</a></li>
+                                    <li><a href="#" class="dropdown-item py-2">Chhattisgarh</a></li>
+                                    <li><a href="#" class="dropdown-item py-2">Goa</a></li>
+                                    <li><a href="#" class="dropdown-item py-2">Haryana</a></li>
+                                    <li><a href="#" class="dropdown-item py-2">Jharkhand</a></li>
+                                    <li><a href="#" class="dropdown-item py-2">California</a></li>
+                                </ul>
+                            </span>
+                        </div>
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Search Our
+                                Product...">
+                        </div>
+                        <div class="contact-box d-flex align-items-center">
+                            <a href="#" class="d-flex">
+                                <i class="fa-solid fa-headphones me-2"></i>
+                                <h3>(123) 1200-238</h3>
+                            </a>
+                            <div class="d-flex user ms-2 align-items-center">
+                                <a href="#"><i class="fa-solid fa-user-group"></i></a>
+                                <div class="ms-3">
+                                    <a href="#"><h6 class="content-color">My
+                                            Account</h6></a>
+                                    <a href="#"><h4>Jennifer V. Ward</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header navbar navbar-expand-lg">
+                <div class="custom-container w-100">
+                    <div class="d-flex justify-content-between
+                        align-items-center">
+                        <div class="btn-bg dropdown">
+                            <a href="#" data-bs-toggle="dropdown">Shop By
+                                Category <i class="fa-solid fa-chevron-down
+                                    ms-2"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item py-2">Shop
+                                        By Rating</a></li>
+                                <li><a href="#" class="dropdown-item py-2">Shop
+                                        By Price</a></li>
+                                <li><a href="#" class="dropdown-item py-2">Shop
+                                        By Quality</a></li>
+                            </ul>
+                        </div>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <nav class="collapse navbar-collapse
+                            justify-content-center align-items-center"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="active"
+                                        data-bs-toggle="dropdown">Home <i
+                                            class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Home</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Home</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Home</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Home</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Home</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">About
+                                        <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">About</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">About</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">About</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">About</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">About</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">Best
+                                        Seles <i class="fa-solid
+                                            fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Best Seles</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Best Seles</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Best Seles</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Best Seles</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Best Seles</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">Mega
+                                        menu <i class="fa-solid
+                                            fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Mega menu</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Mega menu</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Mega menu</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Mega menu</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Mega menu</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">Blog
+                                        <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Blog</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Blog</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Blog</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Blog</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">Pages
+                                        <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Pages</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Pages</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Pages</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Pages</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Pages</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">Collection
+                                        <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Collection</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Collection</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Collection</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Collection</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Collection</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown">Contact
+                                        <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Contact</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Contact</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Contact</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Contact</a></li>
+                                        <li><a href="#" class="dropdown-item
+                                                py-2">Contact</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="deals">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid
+                                        fa-arrow-right-arrow-left"></i>
+                                    <label for="">2</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <label for="">1</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <label for="">4</label>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="btn-bg ms-xl-3 ms-sm-0 border rounded-2">
+                            <i class="fa-solid fa-fire white"></i>
+                            <a href="#">Hot Deals</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- breadcrumbs start -->
+        <div class="breadcrumbs">
+            <div class="custom-container">
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <a href="#">PRODUCT</a>
+                    </li>
+                    <li><a href="#">HOME / PRODUCT</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- breadcrumbs end -->
+        <!-- sidebar start -->
+        <section>
+            <div class="custom-container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="side-nav">
+                            <div class="back-nav d-lg-none">
+                                <h4>Back <i class="fa-solid
+                                        fa-chevron-right"></i></h4>
+                            </div>
+                            <div class="accordion text-uppercase"
+                                id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"
+                                        id="panelsStayOpen-headingOne">
+                                        <a href="#" class="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne"
+                                            aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            brand
+                                        </a>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne"
+                                        class="accordion-collapse collapse
+                                        show"
+                                        aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <div class="label-form">
+                                                <input type="checkbox"
+                                                    class="form-check-input">
+                                                <label for="checkbox"
+                                                    class="form-check-label">Zara</label>
+                                            </div>
+                                            <div class="label-form">
+                                                <input type="checkbox"
+                                                    class="form-check-input">
+                                                <label for="checkbox"
+                                                    class="form-check-label">Baggit</label>
+                                            </div>
+                                            <div class="label-form">
+                                                <input type="checkbox"
+                                                    class="form-check-input">
+                                                <label for="checkbox"
+                                                    class="form-check-label">Lavie</label>
+                                            </div>
+                                            <div class="label-form">
+                                                <input type="checkbox"
+                                                    class="form-check-input">
+                                                <label for="checkbox"
+                                                    class="form-check-label">Peperone</label>
+                                            </div>
+                                            <div class="label-form">
+                                                <input type="checkbox"
+                                                    class="form-check-input">
+                                                <label for="checkbox"
+                                                    class="form-check-label">Only</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <div class="features-box">
+                                    <svg>
+                                        <use
+                                            xlink:href="../assets/images/product/box.svg#box"></use>
+                                    </svg>
+                                    <div class="features-content">
+                                        <h6>10 Days Returnable</h6>
+                                        <h5>Easy Returnable Policies</h5>
+                                    </div>
+                                </div>
+                                <div class="features-box">
+                                    <svg>
+                                        <use
+                                            xlink:href="../assets/images/product/24.svg#hours"></use>
+                                    </svg>
+                                    <div class="features-content">
+                                        <h6>10 Days Returnable</h6>
+                                        <h5>Easy Returnable Policies</h5>
+                                    </div>
+                                </div>
+                                <div class="features-box">
+                                    <svg>
+                                        <use
+                                            xlink:href="../assets/images/product/check.svg#check"></use>
+                                    </svg>
+                                    <div class="features-content">
+                                        <h6>10 Days Returnable</h6>
+                                        <h5>Easy Returnable Policies</h5>
+                                    </div>
+                                </div>
+                                <div class="features-box">
+                                    <svg>
+                                        <use
+                                            xlink:href="../assets/images/product/card.svg#card"></use>
+                                    </svg>
+                                    <div class="features-content">
+                                        <h6>10 Days Returnable</h6>
+                                        <h5>Easy Returnable Policies</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-arrival my-5">
+                                <div class="heading d-flex
+                                    justify-content-between
+                                    align-items-center">
+                                    <h4>NEW PRODUCTS</h4>
+                                </div>
+                                <div class="swiper product-arrival
+                                    swiper-arrow">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="d-flex
+                                                align-items-center">
+                                                <div class="new-products">
+                                                    <a href="#"><img
+                                                            src="assets/images/page-2/portfolio/p-2.png"
+                                                            alt=""
+                                                            class="img-fluid"></a>
+                                                </div>
+                                                <div
+                                                    class="new-products-content">
+                                                    <ul class="d-flex pb-2">
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                    </ul>
+                                                    <a href="#"><h6
+                                                            class="my-1">Lady
+                                                            Bag</h6></a>
+                                                    <span
+                                                        class="p-s-red-color
+                                                        me-1">$70.21</span>
+                                                    <span
+                                                        class="disbled-color"><s>$65.00</s></span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex
+                                                align-items-center">
+                                                <div class="new-products">
+                                                    <a href="#"><img
+                                                            src="assets/images/page-2/portfolio/p-4.png"
+                                                            alt=""
+                                                            class="img-fluid"></a>
+                                                </div>
+                                                <div
+                                                    class="new-products-content">
+                                                    <ul class="d-flex pb-2">
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                    </ul>
+                                                    <a href="#"><h6
+                                                            class="my-1">Handle
+                                                            Front</h6></a>
+                                                    <span
+                                                        class="p-s-red-color
+                                                        me-1">$70.21</span>
+                                                    <span
+                                                        class="disbled-color"><s>$65.00</s></span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex
+                                                align-items-center">
+                                                <div class="new-products">
+                                                    <a href="#"><img
+                                                            src="assets/images/page-2/portfolio/p-11.png"
+                                                            alt=""
+                                                            class="img-fluid"></a>
+                                                </div>
+                                                <div
+                                                    class="new-products-content">
+                                                    <ul class="d-flex pb-2">
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                    </ul>
+                                                    <a href="#"><h6
+                                                            class="my-1">Gucci
+                                                            Purse</h6></a>
+                                                    <span
+                                                        class="p-s-red-color
+                                                        me-1">$70.21</span>
+                                                    <span
+                                                        class="disbled-color"><s>$65.00</s></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex
+                                                align-items-center">
+                                                <div class="new-products">
+                                                    <a href="#"><img
+                                                            src="assets/images/page-2/portfolio/p-12.png"
+                                                            alt=""
+                                                            class="img-fluid"></a>
+                                                </div>
+                                                <div
+                                                    class="new-products-content">
+                                                    <ul class="d-flex pb-2">
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                    </ul>
+                                                    <a href="#"><h6
+                                                            class="my-1">College
+                                                            Bag</h6></a>
+                                                    <span
+                                                        class="p-s-red-color
+                                                        me-1">$70.21</span>
+                                                    <span
+                                                        class="disbled-color"><s>$65.00</s></span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex
+                                                align-items-center">
+                                                <div class="new-products">
+                                                    <a href="#"><img
+                                                            src="assets/images/page-2/portfolio/p-9.png"
+                                                            alt=""
+                                                            class="img-fluid"></a>
+                                                </div>
+                                                <div
+                                                    class="new-products-content">
+                                                    <ul class="d-flex pb-2">
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                    </ul>
+                                                    <a href="#"><h6
+                                                            class="my-1">Sling
+                                                            Bag</h6></a>
+                                                    <span
+                                                        class="p-s-red-color
+                                                        me-1">$70.21</span>
+                                                    <span
+                                                        class="disbled-color"><s>$65.00</s></span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex
+                                                align-items-center">
+                                                <div class="new-products">
+                                                    <a href="#"> <img
+                                                            src="assets/images/page-2/portfolio/p-8.png"
+                                                            alt=""
+                                                            class="img-fluid"></a>
+                                                </div>
+                                                <div
+                                                    class="new-products-content">
+                                                    <ul class="d-flex pb-2">
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid
+                                                                    fa-star"></i></a></li>
+                                                    </ul>
+                                                    <a href="#"><h6
+                                                            class="my-1">Small
+                                                            Book Tote</h6></a>
+                                                    <span
+                                                        class="p-s-red-color
+                                                        me-1">$70.21</span>
+                                                    <span
+                                                        class="disbled-color"><s>$65.00</s></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                       <div class="row">
+                            <div class="col-5">
+                                <div class="slider">
+                                    <div class="swiper mySwiper2">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-1.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/producr-2.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-3.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-4.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-5.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-6.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-7.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-8.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/portfolio/p-1.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/portfolio/p-2.png" class="img-fluid"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div thumbsSlider="" class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-1.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/producr-2.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-3.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-4.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-5.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-6.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-7.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/product/product-8.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/portfolio/p-1.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/page-2/portfolio/p-2.png" class="img-fluid"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sidebar end -->
+        <!-- footer start -->
+        <footer class="bg-footer">
+            <div class="custom-container">
+                <div class="row row-cols-xl-5 row-cols-lg-3 row-cols-sm-2
+                    row-cols-1 gy-4">
+                    <div class="col">
+                        <div class="part-one">
+                            <a href="#"><img
+                                    src="assets/images/page-2/white.png"
+                                    alt="" class="img-fluid mb-2"></a>
+                            <p>it is a long established fact that a reader
+                                will be distracted by the readable
+                                content.</p>
+                            <ul class="d-flex align-items-center">
+                                <li><a href="#"><i class="fa-brands
+                                            fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands
+                                            fa-google"></i></a></li>
+                                <li><a href="#"><i class="fa-brands
+                                            fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands
+                                            fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-wifi"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="part-two">
+                            <h3>Get Help</h3>
+                            <ul>
+                                <li><a href="#">Delivery information</a></li>
+                                <li><a href="#">Sale Terms & Conditions</a></li>
+                                <li><a href="#">Returns & Refunds</a></li>
+                                <li><a href="#">Privacy Notice</a></li>
+                                <li><a href="#">Shopping FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="part-three">
+                            <h3>My Account</h3>
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Returns & Exchages</a></li>
+                                <li><a href="#">Shipping & Delivery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="part-four">
+                            <h3>Information</h3>
+                            <ul>
+                                <li><a href="#">New Products</a></li>
+                                <li><a href="#">Top Sellers</a></li>
+                                <li><a href="#">Our Blog</a></li>
+                                <li><a href="#">About Our Shop</a></li>
+                                <li><a href="#">Secure Shopping</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="part-five">
+                            <h3 class="white">Store infomation</h3>
+                            <ul>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-location-dot
+                                        me-3"></i>
+                                    <p>Fastkart Demo Store, Demo store
+                                        india 345 - 659</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-phone me-3"></i>
+                                    <p>Call us: 123-456-7890</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-envelope me-3"></i>
+                                    <p>Email Us: Support@Fastkart.com</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-file me-3"></i>
+                                    <p>Fax: 123456</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+        <!-- copyright start -->
+        <div class="main-copyright">
+            <div class="custom-container">
+                <div class="copyright-line">
+                    <div class="row align-items-center
+                        justify-content-between m-auto">
+                        <div class="col-md-6">
+                            <div class="copyright-two">
+                                <p>2022 Copyright By Themeforest Powered By
+                                    Pixelstrap </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex justify-content-end">
+                                <li><a href="#"><img
+                                            src="assets/images/page-2/f-1.png"
+                                            alt="" class="img-fluid"></a></li>
+                                <li><a href="#"><img
+                                            src="assets/images/page-2/f-2.png"
+                                            alt="" class="img-fluid"></a></li>
+                                <li><a href="#"><img
+                                            src="assets/images/page-2/f-3.png"
+                                            alt="" class="img-fluid"></a></li>
+                                <li><a href="#"><img
+                                            src="assets/images/page-2/f-4.png"
+                                            alt="" class="img-fluid"></a></li>
+                                <li><a href="#"><img
+                                            src="assets/images/page-2/f-5.png"
+                                            alt="" class="img-fluid"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- swiper -->
+        <script src="assets/js/vendors/swiper/swiper-bundle.min.js"
+            type="text/javascript"></script>
+        <!-- bootstrap js -->
+        <script
+            src="assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"
+            type="text/javascript"></script>
+        <!-- font-awsome js -->
+        <script src="assets/js/vendors/fontawesome/all.min.js"
+            type="text/javascript"></script>
+        <!-- main js -->
+        <script src="assets/js/main.js" type="text/javascript"></script>
+    </body>
+</html>
