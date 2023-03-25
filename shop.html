@@ -338,13 +338,13 @@
                                     </h2>
                                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
                                         <div class="accordion-body">
-                                        <div class="d-flex justify-content-between">
-                                                <label for="">$0</label>
-                                                <label for="">$1500</label>
-                                        </div>
-                                        <div class="range">
-                                                <input type="range" value="0">
-                                        </div>
+                                            <div class="amount-range">
+                                                <div class="range">
+                                                    <label class="form-label">$0</label>
+                                                    <output class="range-amount" id="rangevalue">$1500</output>
+                                                </div>
+                                                <input type="range" value="0" min="0" max="1500" oninput="rangevalue.value=value" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1165,6 +1165,7 @@
 <!-- copyright end -->
 <!-- swiper -->
     <script src="assets/js/vendors/swiper/swiper-bundle.min.js" type="text/javascript"></script>
+    <script src="assets/js/vendors/swiper/slider.js" type="text/javascript"></script>
 <!-- bootstrap js -->
     <script src="assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>   
 <!-- font-awsome js -->
