@@ -65,6 +65,15 @@
             @media (max-width:992px) {
                 background-color: transparent;
             }
+            .amount-range{
+                .range{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                input{
+                    width: 100%;
+                }
+            }
             .label-form{
                 gap: 10px;
                 display: flex;
@@ -87,45 +96,41 @@
                     font-size: 14px;
                 }
             }
-            .color{
-                .form-check-input{
-                    width: 30px;
-                    height: 30px;
-                    border: 1px solid $border-color;
-                    border-radius: 50%;
-                    margin-right: 5px;
-                    cursor: pointer;
-                    &:focus{
-                        box-shadow: none;
-                        border: none;
-                    }
-                }
-            }
-            #red{
-                background-color: $red-color;
-            }
-            #blue{
-                background-color: $icon-bg-color;
-            }
-            #purple{
-                background-color: $yellow-color;
-            }
-            #orange{
-                background-color: $orange-color;
-            }
-            #skyblue{
-                background-color: $tab-color;
-            }
-            #green{
-                background-color: $green-color ;
-            }
-            .range{
-                input{
-                    width: 100%;
-                }
-            }
+           
         }
     }
+}
+.color{
+    .form-check-input{
+        width: 30px;
+        height: 30px;
+        border: 1px solid $border-color;
+        border-radius: 50%;
+        margin-right: 5px;
+        cursor: pointer;
+        &:focus{
+            box-shadow: none;
+            border: none;
+        }
+    }
+}
+#red{
+    background-color: $red-color;
+}
+#blue{
+    background-color: $icon-bg-color;
+}
+#purple{
+    background-color: $yellow-color;
+}
+#orange{
+    background-color: $orange-color;
+}
+#skyblue{
+    background-color: $tab-color;
+}
+#green{
+    background-color: $green-color ;
 }
 .overlay{
     position: fixed;
@@ -151,15 +156,15 @@
     p{
         margin-bottom: 20px;
     }
-    .btn-bg{
-        color: $white;
-        padding: 8px 23px;
-        display: none;
-        @media (max-width:992px) {
-            display: inline-block;
-        }
-    }
     
+}
+.btn-filter{
+    color: $white;
+    padding: 8px 23px;
+    display: none;
+    @media (max-width:992px) {
+        display: inline-block;
+    }
 }
 .info-menu{
     display: flex;
@@ -168,6 +173,7 @@
     justify-content: space-between;
     padding: 0 20px;
     margin-bottom: 30px;
+    align-items: center;
     li{
         padding: 10px 20px;
         + li{
@@ -180,8 +186,8 @@
     .grid-changes{
         display: flex;
         justify-content: center;
+        gap: 5px;
         li{
-            padding: 0 10px;
             +li{
                 border-left: none;
             }
@@ -190,8 +196,11 @@
 }
 .pagination{
     margin: 30px 0;
-    border-top: 2px solid $border-color;
-    border-bottom: 2px solid $border-color;
+    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+    @media (max-width:768px) {
+        margin-bottom: 0;
+        justify-content: center;
+    }
     .page-item{
         &:first-child .page-link{
             border-radius: 0;
@@ -203,14 +212,22 @@
             color: $red-color;
             padding: 10px 20px;
             border-radius: 0;
+            border-left: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+            border-right: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+            border-top: 0;
+            border-bottom: 0;
         }
     }
 }
 .page-content{
     border-left: 0;
-    border: 2px solid $border-color;
+    border: 1px solid $border-color;
     padding: 12px 20px;
     text-align: end;
+    @media (max-width:768px) {
+        text-align: center;
+        margin: 20px 0;
+    }
 }
 
 
